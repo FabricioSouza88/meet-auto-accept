@@ -1,4 +1,4 @@
-# smart-list
+# meet-auto-accept
 
 > Chrome extension to auto accept requests in Google Meet rooms
 
