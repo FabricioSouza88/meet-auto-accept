@@ -47,7 +47,7 @@ function start(state) {
 		setInterval(() => {
 			if(!isActive)
 				return;
-			var labels = ['Permitir', 'Admit', 'Ver tudo', 'Show all'];
+			var labels = ['Permitir', 'Admit', 'Ver tudo', 'Show all', 'Permitir tudo', 'Admit all'];
 			var acceptBtn = Array.from(document.querySelectorAll('[role="button"]')).find(o => labels.includes(o.innerText))
 			if(acceptBtn != null) {
 				acceptBtn.click();

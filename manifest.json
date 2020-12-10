@@ -1,6 +1,6 @@
 {
     "manifest_version": 2,
-    "version": "1.0.0",
+    "version": "1.0.1",
     "name": "Meet Auto Accept",
     "description": "Extensão Auto Accept para Google Meet",
     "author": "Fabricio Souza",
@@ -10,7 +10,6 @@
 		"default_icon": "images/icon_dark.png"
     },
 	"permissions": [
-		"activeTab",
 		"storage"
 	],
 	"content_scripts": [
